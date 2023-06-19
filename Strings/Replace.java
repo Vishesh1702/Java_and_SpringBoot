@@ -9,8 +9,8 @@ public class Replace {
         String result = "";
 
         for (int i = 0; i < str.length(); i++) {
-            if (str.charAt(i) == 'e') {
-                result += 'i';
+            if (str.charAt(i) == 'e') { // checking that str contain 'e'
+                result += 'i'; // replacing it with 'i'
             } else {
                 result += str.charAt(i);
             }

@@ -10,7 +10,7 @@ public class ReverseArrayList {
         System.out.println("Before Reversing");
         System.out.println(l.toString());
 
-        Collections.reverse(l);
+        Collections.reverse(l); // reversing ArrayList by using reverse method
         System.out.println("After Reversing");
         System.out.println(l);
     }
