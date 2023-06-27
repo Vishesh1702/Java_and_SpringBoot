@@ -13,7 +13,8 @@ class Max_Number {
         System.out.print("Enter the third number: ");
         int z = sc.nextInt();
 
-        if (x > y && x > z) {
+        if (x > y && x > z) { // cheking condition that if x>y and x>z if both the condtion is true then it
+                              // will print the statement or it will move forward
             System.out.println(x + " : is the greater nummber");
         } else if (y > z && y > x) {
             System.out.println(y + " : is the greater number");
