@@ -21,7 +21,7 @@ class RemoveDuplicate {
             if (arr[str1.charAt(i)] == 0) {
                 System.out.print(str1.charAt(i));
             }
-        }
+        }   ``
 
     }
 }
